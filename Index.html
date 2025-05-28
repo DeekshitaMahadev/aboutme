@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Engineering Student Resume</title>
+  <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f4f7fa;
+      padding: 20px;
+      color: #333;
+    }
+
+    .resume-container {
+      max-width: 800px;
+      margin: auto;
+      background: white;
+      padding: 30px 40px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      border-radius: 8px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      font-size: 2.5em;
+      margin-bottom: 5px;
+      color: #2c3e50;
+    }
+
+    header p {
+      font-size: 1.1em;
+      color: #7f8c8d;
+    }
+
+    section {
+      margin-bottom: 25px;
+    }
+
+    section h2 {
+      font-size: 1.5em;
+      border-bottom: 2px solid #2980b9;
+      padding-bottom: 5px;
+      color: #2980b9;
+      margin-bottom: 15px;
+    }
+
+    /* Contact Info */
+    .contact-info {
+      text-align: center;
+      margin-bottom: 25px;
+      font-size: 0.9em;
+      color: #34495e;
+    }
+
+    .contact-info span {
+      margin: 0 10px;
+    }
+
+    /* Education */
+    .education-item {
+      margin-bottom: 15px;
+    }
+
+    .education-item h3 {
+      font-size: 1.2em;
+      color: #34495e;
+      margin-bottom: 5px;
+    }
+
+    .education-item span {
+      font-size: 0.9em;
+      color: #7f8c8d;
+      display: block;
+      margin-bottom: 3px;
+    }
+
+    /* Skills */
+    ul.skills-list {
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    ul.skills-list li {
+      background-color: #2980b9;
+      color: white;
+      padding: 7px 15px;
+      border-radius: 20px;
+      font-size: 0.9em;
+    }
+
+    /* Projects & Experience */
+    .project-item, .experience-item {
+      margin-bottom: 15px;
+    }
+
+    .project-item h3, .experience-item h3 {
+      color: #34495e;
+      font-size: 1.2em;
+      margin-bottom: 5px;
+    }
+
+    .project-item span, .experience-item span {
+      font-size: 0.9em;
+      color: #7f8c8d;
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    .project-item p, .experience-item p {
+      font-size: 0.95em;
+      color: #555;
+      line-height: 1.4;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="resume-container">
+    <header>
+      <h1>John Doe</h1>
+      <p>4th Semester Engineering Student - Computer Science</p>
+    </header>
+
+    <div class="contact-info">
+      <span>Email: john.doe@example.com</span> |
+      <span>Phone: +91 9876543210</span> |
+      <span>LinkedIn: linkedin.com/in/johndoe</span>
+    </div>
+
+    <section>
+      <h2>Education</h2>
+      <div class="education-item">
+        <h3>ABC Engineering College, City</h3>
+        <span>Bachelor of Technology in Computer Science</span>
+        <span>Expected Graduation: 2026</span>
+        <span>Current Semester: 4th</span>
+        <span>CGPA: 8.5 / 10</span>
+      </div>
+      <div class="education-item">
+        <h3>XYZ High School</h3>
+        <span>Completed 12th Board - Science Stream</span>
+        <span>Year: 2021</span>
+        <span>Percentage: 92%</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Technical Skills</h2>
+      <ul class="skills-list">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+        <li>C/C++</li>
+        <li>Git & GitHub</li>
+        <li>Linux</li>
+        <li>Data Structures</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="project-item">
+        <h3>Library Management System</h3>
+        <span>Jan 2024 - March 2024</span>
+        <p>Developed a web-based library management system using HTML, CSS, and JavaScript. Implemented book issue and return features with a user-friendly interface.</p>
+      </div>
+      <div class="project-item">
+        <h3>Simple Chat Application</h3>
+        <span>Sep 2023 - Nov 2023</span>
+        <p>Created a basic chat app using Python and sockets to facilitate real-time messaging between users on the same network.</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Extracurricular Activities</h2>
+      <ul>
+        <li>Member of Coding Club at ABC Engineering College</li>
+        <li>Volunteered at TechFest 2024 as event coordinator</li>
+        <li>Participated in inter-college hackathons and coding competitions</li>
+      </ul>
+    </section>
+
+  </div>
+</body>
+</html>
